@@ -1,0 +1,492 @@
+[
+  {
+    "sha_id": 1,
+    "sha_text": "7ca76e84ed9a971f923c589f3361102a36157dca",
+    "commit_date": "2025-04-01T13:53:42Z",
+    "commit_message": "chore: Update kagome-dict and fix Go version (#356)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 2,
+    "sha_text": "2affcc25920b1ba13bd929c4a523f81ab9743554",
+    "commit_date": "2025-03-28T13:34:29Z",
+    "commit_message": "chore: Adjust the linter warning",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 3,
+    "sha_text": "426167d9b48e70caa858d15731e507dfa47a3b93",
+    "commit_date": "2024-08-03T06:08:02Z",
+    "commit_message": "feat: Add standard ja filter (#339)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 4,
+    "sha_text": "0287b37bfa14e0e35b68d1a992e8494bb46ff3d2",
+    "commit_date": "2024-04-20T06:24:04Z",
+    "commit_message": "chore: Rename",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 5,
+    "sha_text": "c08f94e9379d4c04f710b56908ae80e8fb401317",
+    "commit_date": "2024-04-20T00:30:36Z",
+    "commit_message": "fix: unused-parameter t (warning from revive)",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 6,
+    "sha_text": "ab291c0ed001dd57f1e494fed41353a9cce25df2",
+    "commit_date": "2024-04-20T00:17:14Z",
+    "commit_message": "chore: add tests and examples for mem.Pool",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 7,
+    "sha_text": "9cf6609f5dcb790cde832da02dc95c04f37e6e8d",
+    "commit_date": "2024-04-13T12:23:47Z",
+    "commit_message": "chore: Refactoring of the memory pool (#323)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 8,
+    "sha_text": "b65900b079835c2de0ed9e498e8a20451e1bc952",
+    "commit_date": "2024-04-13T10:11:35Z",
+    "commit_message": "docs: add README to each example",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 9,
+    "sha_text": "7685a8f557d4e2ac79aeffc91c023507afa1a36e",
+    "commit_date": "2024-04-13T04:17:43Z",
+    "commit_message": "chore: revamp sample dir as _example",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 10,
+    "sha_text": "4aaed1d8bd0e2073ec346e7cf3273b7d9fa247d0",
+    "commit_date": "2024-04-13T04:13:32Z",
+    "commit_message": "chore: move user dict sample to testdata for testing",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 11,
+    "sha_text": "f315131e4b929c685e7bf70ff48b947fc4623a01",
+    "commit_date": "2024-02-21T14:25:53Z",
+    "commit_message": "update: fix page number and refers original sample code (#317)",
+    "author_name": "Shunya Ueta"
+  },
+  {
+    "sha_id": 12,
+    "sha_text": "d4c4199cc09e01a89eeadf531f37f033e125badb",
+    "commit_date": "2024-01-20T07:22:47Z",
+    "commit_message": "Merge pull request #315 from ikawaha/fix/GO-W1024",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 13,
+    "sha_text": "41d9614cfbd5a799879ea47aa1ff8bbd15c48862",
+    "commit_date": "2024-01-20T07:16:16Z",
+    "commit_message": "fix: Fix error handling",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 14,
+    "sha_text": "b6d803a98e8cb2fa69923f857f8fa62a1dc09018",
+    "commit_date": "2024-01-20T07:01:25Z",
+    "commit_message": "fix: Poor file permissions used when creating a file or using os.Chmo…",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 15,
+    "sha_text": "ac3bd7a116143a49056fc0cbef71e83c273a129e",
+    "commit_date": "2023-10-16T23:45:30Z",
+    "commit_message": "chore: Fix to use plain channel send or receive (SCC-S1000)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 16,
+    "sha_text": "da4de6cb3830b292568cdcd509415f2da6c2defa",
+    "commit_date": "2023-10-16T23:43:43Z",
+    "commit_message": "chore: Fix empty error string (GO-W1024)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 17,
+    "sha_text": "ddcfb298169fd8cdb443e7ff4f5afef7d35969f8",
+    "commit_date": "2023-10-16T23:37:36Z",
+    "commit_message": "chore: Fix potential slowloris attack (GO-S2112)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 18,
+    "sha_text": "08c115228ed6e9e1b5558184499f8d5c9b3eafe3",
+    "commit_date": "2023-10-16T23:37:36Z",
+    "commit_message": "chore: Fix to exit inside non-main function (RVV-A0003)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 19,
+    "sha_text": "53a6ae4fa0cfcb26a15d19275c09f7cef0de0618",
+    "commit_date": "2023-09-27T11:52:19Z",
+    "commit_message": "Add working examples of full-text-search of SQLite3 (#309)",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 20,
+    "sha_text": "eefefe143d23f7958a06d0d26e5fa467fa260722",
+    "commit_date": "2023-03-06T12:45:38Z",
+    "commit_message": "Working examples (#296)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 21,
+    "sha_text": "fac3b06a2491692b06814d72a716aee89a8a7724",
+    "commit_date": "2022-10-31T12:24:21Z",
+    "commit_message": "Add functions to get custom segmentations/readings for tokens come fr…",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 22,
+    "sha_text": "4f8c012766beef31e7a912ba65833f024914e189",
+    "commit_date": "2022-10-02T00:37:26Z",
+    "commit_message": "Add go:build ignore",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 23,
+    "sha_text": "564ada90e26b0bc661bd258ff3ac4c7f7d207509",
+    "commit_date": "2022-08-21T14:26:05Z",
+    "commit_message": "Bump kagome-dict v1.0.5 (#279)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 24,
+    "sha_text": "a16f9337a12438750ff98d28a2ea8e23cb47ac4d",
+    "commit_date": "2022-08-21T11:19:57Z",
+    "commit_message": "Refactoring (#278)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 25,
+    "sha_text": "e3698cde5828b24b69a349aafae2843df411b8f1",
+    "commit_date": "2022-06-19T11:55:55Z",
+    "commit_message": "Add equality functions for token features or POSs",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 26,
+    "sha_text": "b931249f2a44b6204c3454d253a848523796bf54",
+    "commit_date": "2021-10-28T02:18:45Z",
+    "commit_message": "fix typo (#262)",
+    "author_name": "Takanori Inagaki"
+  },
+  {
+    "sha_id": 27,
+    "sha_text": "ca5ead1f0c1d3385b1bc6a6c25750484b511baf1",
+    "commit_date": "2021-10-21T15:41:15Z",
+    "commit_message": "Simplify memory allocation (#260)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 28,
+    "sha_text": "413d29600221f05b4d99a1e6d1578f32a2f39942",
+    "commit_date": "2021-10-06T23:46:01Z",
+    "commit_message": "Refactoring lattice nodes (#257)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 29,
+    "sha_text": "c69b6aec63204dae47e8cddec0990bc51aa4c29e",
+    "commit_date": "2021-09-14T13:22:11Z",
+    "commit_message": "Fix the display of POS names (#255)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 30,
+    "sha_text": "3f58ef3a90c5dbdfe67459ad24df8435aa0d3505",
+    "commit_date": "2021-09-05T04:38:12Z",
+    "commit_message": "Refactoring sub-commands (#254)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 31,
+    "sha_text": "707060b82d9c237b7e59dbd16bafe98b84738073",
+    "commit_date": "2021-07-29T07:16:16Z",
+    "commit_message": "fix: issue #249 missing token and bracket place on interaction mode (…",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 32,
+    "sha_text": "16d2de7ad105153c415858a9487caa5ce40128f6",
+    "commit_date": "2021-07-26T11:12:47Z",
+    "commit_message": "Fix typo",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 33,
+    "sha_text": "cf39ef7aca76fddf057ac2b87423bc8d82c3c532",
+    "commit_date": "2021-07-26T11:10:26Z",
+    "commit_message": "Rename file names from CamelCase to snake_case",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 34,
+    "sha_text": "3d689ef6fc6a39e918bc122a9128abb119657dd8",
+    "commit_date": "2021-07-26T07:25:38Z",
+    "commit_message": "fix: backward compatibility to Go 1.14 (testing.T.TempDir() not exists)",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 35,
+    "sha_text": "83e172a0f868b69afcbd18efd09c8623efa3d1fc",
+    "commit_date": "2021-07-26T06:46:05Z",
+    "commit_message": "fix: lint check errors (golangci-lint)",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 36,
+    "sha_text": "27b2a4b3c849e0df3383dbe4da31a7ee16fbbd23",
+    "commit_date": "2021-07-26T06:13:47Z",
+    "commit_message": "coverage: json.Marshal failure test",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 37,
+    "sha_text": "c3130c1de3e8d54022c9a24321b61e59b686b1dc",
+    "commit_date": "2021-07-26T06:12:43Z",
+    "commit_message": "feat: tests",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 38,
+    "sha_text": "e9e37078b25dffcce616a2cf3487c6916708bd98",
+    "commit_date": "2021-07-26T01:35:41Z",
+    "commit_message": "feat: \"-json\" flag option",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 39,
+    "sha_text": "d15a05ced3c1e21f7618775dbc2052b3bc3acdb6",
+    "commit_date": "2021-07-25T10:24:04Z",
+    "commit_message": "Create PrintScannedTokens.go",
+    "author_name": "KEINOS"
+  },
+  {
+    "sha_id": 40,
+    "sha_text": "4077936b93ae0a1d3cf84aa8e92d80adacd0bf45",
+    "commit_date": "2021-06-07T15:01:19Z",
+    "commit_message": "Merge remote-tracking branch 'origin/develop' into develop",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 41,
+    "sha_text": "9a9df1e51d60e57ba5783c973122b686cb4812b0",
+    "commit_date": "2021-06-07T15:00:35Z",
+    "commit_message": "Ignore: cyclomatic complexity 24 of func `(*Lattice).Dot` is high (> …",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 42,
+    "sha_text": "56c020d539d3c21cc233d7e88f036d5d5c4d9068",
+    "commit_date": "2021-06-07T14:59:35Z",
+    "commit_message": "Fix cyclomatic complexity (gocyclo)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 43,
+    "sha_text": "3002a820c5208fcec3a47558e55ce627980a70dc",
+    "commit_date": "2021-06-07T14:36:20Z",
+    "commit_message": "Fix if-return: redundant if ...; err != nil check, just return error …",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 44,
+    "sha_text": "1bd84d1435675910eab930f22e99c8020e5f7910",
+    "commit_date": "2021-06-07T14:35:13Z",
+    "commit_message": "Fix malformed example suffix (govet)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 45,
+    "sha_text": "35cbb3a9efc4108cd85a29bceb5ca568e770afe5",
+    "commit_date": "2021-06-07T14:30:10Z",
+    "commit_message": "Fix to avoid adding too many nodes for unknown words (#240)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 46,
+    "sha_text": "557fc32995eeef940064a5a38e2cb986dafb8009",
+    "commit_date": "2021-06-06T13:31:33Z",
+    "commit_message": "Add an option for sentence split to the tokenize command (#244)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 47,
+    "sha_text": "125c6a6c46d11f5e7c4fa9a082634f1576b863a7",
+    "commit_date": "2021-06-06T12:41:18Z",
+    "commit_message": "Fix errorlint",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 48,
+    "sha_text": "a75f06bb91bc18c0a92ece5985d9ff8d0c6586c1",
+    "commit_date": "2021-06-06T12:21:53Z",
+    "commit_message": "Fix errorlint",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 49,
+    "sha_text": "9dc6c75ebae714e734419711aaf16d055c5a8767",
+    "commit_date": "2021-06-06T12:17:28Z",
+    "commit_message": "Add a subcommand for sentence split",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 50,
+    "sha_text": "abaecbc866759c82c24695976ecc4e4ba33ba8f0",
+    "commit_date": "2021-06-06T12:15:02Z",
+    "commit_message": "Add an option for sentence split to the tokenize command",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 51,
+    "sha_text": "28a4f56d715d99e89287466d35a9ffdce2dd7436",
+    "commit_date": "2021-03-31T02:53:44Z",
+    "commit_message": "Add gh-pages",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 52,
+    "sha_text": "256844a9ec298db71a43439dab4f952a983d9b80",
+    "commit_date": "2021-03-31T02:43:59Z",
+    "commit_message": "Add a wasm sample",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 53,
+    "sha_text": "f3a0e7104464651ad4ea6cbe80c9263c756d080f",
+    "commit_date": "2020-12-31T00:35:24Z",
+    "commit_message": "Fix a bug when the option to skip white space is disabled (#231)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 54,
+    "sha_text": "df60d940c7ed139e3c46b4b7ec02bdeecb1d2b71",
+    "commit_date": "2020-12-31T00:35:24Z",
+    "commit_message": "Cosme (#229)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 55,
+    "sha_text": "585d8635ce392ea88cc953801cce4a1fa53cd0e2",
+    "commit_date": "2020-12-29T14:25:38Z",
+    "commit_message": "Fix a comment",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 56,
+    "sha_text": "f9d969bcf5dd582052ff61a627631b63683ab2b2",
+    "commit_date": "2020-12-29T14:20:42Z",
+    "commit_message": "Fix equality of tokens",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 57,
+    "sha_text": "b17204b3f116307d7161b8873e2020b7b0571d59",
+    "commit_date": "2020-12-29T14:18:33Z",
+    "commit_message": "Update",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 58,
+    "sha_text": "5d8b2c192792e96b6f53f04053e90f7215a54a57",
+    "commit_date": "2020-12-29T13:45:12Z",
+    "commit_message": "Update",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 59,
+    "sha_text": "4e2dfeaf12f4ee9e5db62a558629221819662746",
+    "commit_date": "2020-12-29T08:40:58Z",
+    "commit_message": "Add the index field to the token structure",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 60,
+    "sha_text": "9acf5abbd73a0f9a7612ca6f08466f95d78637dc",
+    "commit_date": "2020-12-29T08:38:46Z",
+    "commit_message": "Fix a bug where the position is not set",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 61,
+    "sha_text": "bc1669eb9bdf8146dfcf7802aa99aa480010050e",
+    "commit_date": "2020-12-20T13:48:53Z",
+    "commit_message": "Fix version display",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 62,
+    "sha_text": "42f3a237e2c0497617e8729adf4bc7c0afc2c21f",
+    "commit_date": "2020-12-19T12:55:29Z",
+    "commit_message": "Fix potential panic",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 63,
+    "sha_text": "89253502f47e990194a31c46694d3abe85ad702d",
+    "commit_date": "2020-12-19T04:21:46Z",
+    "commit_message": "Fix the way of the version display",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 64,
+    "sha_text": "dfa6f7ede29e137bfbe130bc43ed485503a381df",
+    "commit_date": "2020-12-14T13:38:23Z",
+    "commit_message": "Update",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 65,
+    "sha_text": "fd173ca6e56d873979290fe758b6413b9fd70e09",
+    "commit_date": "2020-12-14T04:16:25Z",
+    "commit_message": "Rename an option name, userDict to udict",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 66,
+    "sha_text": "b67bed44130291bf789954c6b271f8b9950b1dff",
+    "commit_date": "2020-10-16T13:08:18Z",
+    "commit_message": "Change the location of the command files (#213)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 67,
+    "sha_text": "fe98206425b336ada72addd6e9810d942e849876",
+    "commit_date": "2020-10-07T15:11:29Z",
+    "commit_message": "Add reviewdog-golangci-lint settings",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 68,
+    "sha_text": "142e4b59486560c74454575e5dcbb6e90235c6d1",
+    "commit_date": "2020-10-06T16:29:21Z",
+    "commit_message": "Add nolint gocyclo (#203)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 69,
+    "sha_text": "95ea551b4aefc7beee91d88fbfe033f0629441e3",
+    "commit_date": "2020-10-06T15:30:47Z",
+    "commit_message": "Cosme (#202)",
+    "author_name": "ikawaha"
+  },
+  {
+    "sha_id": 70,
+    "sha_text": "14208ece9a2f26b755fabe36f7b379bd138b3ed7",
+    "commit_date": "2020-10-06T13:14:17Z",
+    "commit_message": "Cosme",
+    "author_name": "ikawaha"
+  }
+]
