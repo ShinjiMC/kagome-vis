@@ -1,0 +1,68 @@
+name: Generate & Deploy HeatMetro
+
+on:
+  push:
+    branches: ["v2"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Checkout Data Repo (Where repositories.db is)
+      - name: Checkout Data Repo
+        uses: actions/checkout@v4
+
+      # 2. Checkout Generator Scripts
+      - name: Checkout Generator Scripts
+        uses: actions/checkout@v4
+        with:
+          repository: ShinjiMC/HeatMetro
+          ref: generator
+          path: scripts
+
+      # 3. Setup Node.js
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # 4. Generate JSON Data
+      - name: Generate JSON Data
+        run: |
+          echo "Moving database..."
+          cp repositories.db scripts/repositories.db
+          echo "Installing dependencies and generating..."
+          cd scripts
+          npm install
+          node json.js
+          if [ ! -d "data" ]; then
+            echo "Error: Data folder was not generated."
+            exit 1
+          fi
+
+      # 5. Download Frontend Build (Release)
+      - name: Download Frontend Build
+        run: |
+          echo "⬇Downloading frontend release..."
+          wget -O frontend.zip https://github.com/ShinjiMC/HeatMetro/releases/download/v1.0.0/dist.zip
+          echo "Unzipping..."
+          unzip frontend.zip -d public_site
+
+      # 6. Inject Data into Frontend
+      - name: Inject Data
+        run: |
+          echo "Injecting data into static site..."
+          mkdir -p public_site/data
+          cp -r scripts/data/* public_site/data/
+          echo "Final structure ready."
+
+      # 7. Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: public_site
+          branch: gh-pages
