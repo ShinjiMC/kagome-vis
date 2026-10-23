@@ -48,7 +48,7 @@ jobs:
       - name: Download Frontend Build
         run: |
           echo "⬇Downloading frontend release..."
-          wget -O frontend.zip https://github.com/ShinjiMC/HeatMetro/releases/download/v1.0.0/dist.zip
+          wget -O frontend.zip https://github.com/ShinjiMC/heatmetro-platform/releases/download/v1.0.0/dist.zip
           echo "Unzipping..."
           unzip frontend.zip -d public_site
 
